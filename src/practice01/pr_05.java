@@ -17,6 +17,7 @@ public class pr_05 {
 			}
 		}
 		System.out.println("�ִ밪 :" + c);
+		sc.close();
 	}
 
 }

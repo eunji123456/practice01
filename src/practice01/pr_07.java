@@ -8,29 +8,30 @@ public class pr_07 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("==================================");
-		System.out.println("	      ¼ýÀÚ ¸ÂÃß±â °ÔÀÓ ½ÃÀÛ 				");
+		System.out.println("	      ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ß±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 				");
 		System.out.println("==================================");
 
 		int ran = (int) (Math.random() * 100) + 1;
 		while (true) {
 			System.out.print(">>");
 			int a = sc.nextInt();
-			
+
 			if (a == ran) {
-				System.out.println("¸Â¾Ò½À´Ï´Ù.");
-				System.out.println("°ÔÀÓÀ» Á¾·á ÇÏ½Ã°Ú½À´Ï±î ? (y/n)>>");
-				String b= sc.next();
-				if(b.equals("y")) {
-					System.out.println("°ÔÀÓÀ» Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("ï¿½Â¾Ò½ï¿½ï¿½Ï´ï¿½.");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ï½Ã°Ú½ï¿½ï¿½Ï±ï¿½ ? (y/n)>>");
+				String b = sc.next();
+				if (b.equals("y")) {
+					System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 					break;
-				}else if (b.equals("n")) {
+				} else if (b.equals("n")) {
 					continue;
 				}
-			} else if (a <ran) {
-				System.out.println("´õ ³ô°Ô");
-			}else if(a>ran){
-				System.out.println("´õ ³·°Ô ");
+			} else if (a < ran) {
+				System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+			} else if (a > ran) {
+				System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ");
 			}
+			sc.close();
 		}
 
 	}

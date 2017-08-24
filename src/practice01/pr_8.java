@@ -11,30 +11,30 @@ public class pr_8 {
 
 		while (true) {
 			System.out.println("--------------------------------------");
-			System.out.println("	1.¿¹±Ý | 2.Ãâ±Ý | 3.ÀÜ°í | 4. Á¾·á          ");
+			System.out.println("	1.ï¿½ï¿½ï¿½ï¿½ | 2.ï¿½ï¿½ï¿½ | 3.ï¿½Ü°ï¿½ | 4. ï¿½ï¿½ï¿½ï¿½          ");
 			System.out.println("--------------------------------------");
-			System.out.print("¼±ÅÃ > ");
+			System.out.print("ï¿½ï¿½ï¿½ï¿½ > ");
 			int choose = sc.nextInt();
 			switch (choose) {
 			case 1:
-				System.out.print("¿¹±Ý¾×>");
+				System.out.print("ï¿½ï¿½ï¿½Ý¾ï¿½>");
 				int money=sc.nextInt();
 				save+=money;
 				break;
 			case 2:
-				System.out.print("Ãâ±Ý¾×>");
+				System.out.print("ï¿½ï¿½Ý¾ï¿½>");
 				int money1=sc.nextInt();
 				save-=money1;
 				break;
 			case 3:
-				System.out.print("ÀÜ°í¾×>");
+				System.out.print("ï¿½Ü°ï¿½ï¿½>");
 				System.out.println(save);
 				break;
 			case 4:
-				System.out.println("Á¾·á");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½");
 				break;
 			}
-
+			sc.close();
 		}
 	}
 }
